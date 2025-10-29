@@ -2,12 +2,13 @@
 set nocompatible
 
 " Helps force plugins to load correctly when it is turned back on below.
-"filetype off
+filetype off
 
 " TODO: Load plugins here (pathogen or vundle, we recommend vundle)
 
 " Enable plugins and load plugin for the detected file type.
-"filetype plugin indent on
+filetype plugin indent on
+set omnifunc=ccomplete#Complete
 
 " Turn syntax highlighting on.
 syntax on
@@ -23,11 +24,10 @@ set shiftwidth=4
 
 " Show line numbers.
 set number
-set relativenumber
+"set relativenumber
 
 " Show file stats.
 set ruler
-
 " Blink cursor on error instead of beeping.
 set visualbell
 
@@ -49,11 +49,11 @@ set smartindent
 "Makes sure that spaces are used for indenting lines, even when you press the "Tab" key
 "set expandtab
 
-"This will insert 2 spaces for a line indent
-"set tabstop=2
+"This will insert spaces for a line indent
+set tabstop=4
 
 "Manages the indentation when you use the ">>" or "<<" operators to add or remove indentation to an already existing line/block of code
-"shiftwidth=2
+shiftwidth=4
 
 "The previous commands can be combined into a single line
 "set tabstop=2 shiftwidth=2 expandtab
@@ -78,3 +78,7 @@ set showmode
 
 "Shows partial commands in the last line of the screen
 set showcmd
+
+" highlight matching braces
+set showmatch
+
