@@ -19,9 +19,6 @@ syntax on
 " Highlight cursor line underneath the cursor vertically.
 "set cursorcolumn
 
-" Set shift width to 4 spaces.
-set shiftwidth=4
-
 " Show line numbers.
 set number
 "set relativenumber
@@ -53,7 +50,7 @@ set smartindent
 set tabstop=4
 
 "Manages the indentation when you use the ">>" or "<<" operators to add or remove indentation to an already existing line/block of code
-shiftwidth=4
+set shiftwidth=4
 
 "The previous commands can be combined into a single line
 "set tabstop=2 shiftwidth=2 expandtab
