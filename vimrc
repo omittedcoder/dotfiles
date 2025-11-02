@@ -8,6 +8,7 @@ filetype off
 
 " Enable plugins and load plugin for the detected file type.
 filetype plugin indent on
+set omnifunc=syntaxcomplete#Complete
 set omnifunc=ccomplete#Complete
 
 " Turn syntax highlighting on.
@@ -44,7 +45,7 @@ set wrap
 set smartindent
 
 "Makes sure that spaces are used for indenting lines, even when you press the "Tab" key
-"set expandtab
+set expandtab
 
 "This will insert spaces for a line indent
 set tabstop=4
