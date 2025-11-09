@@ -206,4 +206,8 @@ bindcode 233 exec light -A 10
 
 # Autostart
 exec nextcloud
+exec /var/lib/flatpak/exports/bin/com.tomjwatson.Emote
+exec nm-applet
+exec blueman-applet
+exec picom
 
