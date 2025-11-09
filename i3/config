@@ -209,5 +209,5 @@ exec nextcloud
 exec /var/lib/flatpak/exports/bin/com.tomjwatson.Emote
 exec nm-applet
 exec blueman-applet
-exec picom
+exec --no-startup-id picom --config ~/.config/picom/picom.conf
 
