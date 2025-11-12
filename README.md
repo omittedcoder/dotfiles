@@ -3,7 +3,7 @@ My Config Files
 
 ## Paths
 
-bash_aliases: ~/.bash_aliases
+bash\_aliases: ~/.bash\_aliases
 
 config.fish: ~/.config/fish/config.fish
 
@@ -15,5 +15,5 @@ i3/config: ~/.config/i3/config
 
 i3/i3blocks.conf: ~/.i3blocks.conf
 
-i3/picom.conf: ~/.conf/picom/picom.conf
+i3/picom.conf: ~/.config/picom/picom.conf
 
