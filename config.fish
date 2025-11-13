@@ -11,8 +11,8 @@ function fish_prompt -d "Write out the prompt"
 	#set -g __fish_git_prompt_showupstream auto
 	set -g __fish_git_prompt_show_informative_status yes
 	set -g __fish_git_prompt_showcolorhints yes
-    #printf '%s%s> ' (prompt_pwd) (fish_git_prompt)
-    printf '%s%s> ' (pwd) (fish_git_prompt)
+    printf '%s%s> ' (prompt_pwd) (fish_git_prompt)
+    #printf '%s%s> ' (pwd) (fish_git_prompt)
 end
 
 function fish_right_prompt -d "Write out the right prompt"
