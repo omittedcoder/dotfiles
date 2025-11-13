@@ -14,4 +14,5 @@ alias gitc='git commit -m'
 alias gitph='git push'
 alias gitpl='git pull'
 alias gitd='git diff'
+alias gitac='git add . && git commit -m'
 

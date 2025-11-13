@@ -211,7 +211,7 @@ bindcode 198 exec amixer set Capture toggle # mute mic
 
 # special control
 #bindcode 220 exec  # turn off webcam
-bindsym $mod+F9 exec i3lock # lock
+bindsym $mod+F9 exec i3lock -c 000000 # lock
 #bindcode 33 exec  # beamer
 #bindcode 232 exec xbacklight -10 # brightness down
 #bindcode 232 exec light -U 10
